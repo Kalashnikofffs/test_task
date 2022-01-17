@@ -10,7 +10,7 @@ public class ConvertibleMessageImpl extends LinkedHashMap<String, String> implem
     /**
      * Here i decided to use one of the Map<> implementations, because of hint in a StandardConverter.
      * But there is a "identical keys" problem. That can be solved with custom Map<> realization,
-     * Appace/Guava Multimap, or two-dimensional array. 
+     * Appace/Guava Multimap, or two-dimensional array.
      **/
     private final String header;
 
